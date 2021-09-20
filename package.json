@@ -21,10 +21,10 @@
     },
     "homepage": "https://github.com/vladiiliev/rollup-plugin-search-and-replace#readme",
     "peerDependencies": {
-        "replace-in-file": "^6.2.0"
+        "replace-in-file": "6.2.0"
     },
     "devDependencies": {
-        "prettier": "^2.4.1",
-        "replace-in-file": "^6.2.0"
+        "prettier": "2.4.1",
+        "replace-in-file": "6.2.0"
     }
 }
