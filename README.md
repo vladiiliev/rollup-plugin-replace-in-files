@@ -45,4 +45,4 @@ Note that the current version of the plugin only works in synchronous mode, so y
 
 ### `hook`
 
-Rollup [hook](https://github.com/rollup/rollup/blob/master/docs/05-plugin-development.md#build-hooks) the plugin should use. Default is `closeBundle`.
+Rollup hook the plugin should use. Default is `closeBundle`. A list of all available hooks can be found [here](https://github.com/rollup/rollup/blob/master/docs/05-plugin-development.md#build-hooks).
