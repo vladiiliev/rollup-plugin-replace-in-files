@@ -28,7 +28,8 @@ export default {
                 files: 'path/to/file',
                 from: /foo/g,
                 to: 'bar'
-            }
+            },
+            hook: 'closeBundle'
         })
     ]
 };
