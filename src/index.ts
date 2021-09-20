@@ -1,6 +1,10 @@
-import replace from 'replace-in-file';
+import replace, { ReplaceInFileConfig } from 'replace-in-file';
 
-export default function searchAndReplace(options = {}) {
+interface ReplaceInFileOptions extends ReplaceInFileConfig {
+    verbose?: boolean;
+}
+
+function searchAndReplace(options: { entry: ReplaceInFileOptions; hook?: string }) {
     const {
         entry = {
             files: '',
@@ -16,10 +20,12 @@ export default function searchAndReplace(options = {}) {
             try {
                 const results = replace.sync(entry);
 
-                entry['verbose'] && console.info('Replacement results:', results);
+                entry.verbose && console.info('Replacement results:', results);
             } catch (error) {
                 console.error('Error occurred:', error);
             }
         }
     };
 }
+
+export default searchAndReplace;

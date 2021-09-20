@@ -2,8 +2,10 @@
     "name": "rollup-plugin-search-and-replace",
     "version": "1.0.1",
     "description": "A rollup plugin that searches for and replaces text in one or more files. It works synchronously and makes a single replacement or several replacements at once.",
-    "main": "index.js",
-    "type": "module",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "unpkg": "dist/index.min.js",
+    "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/vladiiliev/rollup-plugin-search-and-replace.git"
@@ -20,11 +22,26 @@
         "url": "https://github.com/vladiiliev/rollup-plugin-search-and-replace/issues"
     },
     "homepage": "https://github.com/vladiiliev/rollup-plugin-search-and-replace#readme",
+    "scripts": {
+        "dev": "rollup -c -w",
+        "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
+    },
+    "files": [
+        "dist"
+    ],
     "peerDependencies": {
         "replace-in-file": "6.2.0"
     },
     "devDependencies": {
+        "@rollup/plugin-commonjs": "20.0.0",
         "prettier": "2.4.1",
-        "replace-in-file": "6.2.0"
+        "replace-in-file": "6.2.0",
+        "rollup": "2.56.3",
+        "rollup-plugin-delete": "2.0.0",
+        "rollup-plugin-dts": "4.0.0",
+        "rollup-plugin-peer-deps-external": "2.2.4",
+        "rollup-plugin-terser": "7.0.2",
+        "rollup-plugin-typescript2": "0.30.0",
+        "typescript": "4.4.3"
     }
 }

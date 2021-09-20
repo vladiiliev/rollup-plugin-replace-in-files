@@ -41,7 +41,7 @@ In addition to the properties and values specified for replacement, users may al
 
 ### `entry`
 
-Type: `{ [key: String]: Replacement }`<br>
+Type: [ReplaceInFileConfig](https://github.com/adamreisnz/replace-in-file/blob/9d68b906d896fa53dc6d206dccb744552a346c19/types/index.d.ts#L20) <br>
 Default: `{}`
 
 Here you can use all available options from [replace-in-file](https://www.npmjs.com/package/replace-in-file#basic-usage). 
@@ -49,7 +49,7 @@ Note that the current version of the plugin only works in synchronous mode, so y
 
 ### `hook`
 
-Type: `String`<br>
+Type: `String` <br>
 Default: `closeBundle`
 
 Rollup hook the plugin should use. Default is `closeBundle`. A list of all available hooks can be found [here](https://github.com/rollup/rollup/blob/master/docs/05-plugin-development.md#build-hooks).
