@@ -1,21 +1,22 @@
 {
-  "name": "rollup-plugin-replace-in-files",
+  "name": "rollup-plugin-search-and-replace",
   "version": "1.0.0",
-  "description": "A rollup plugin which replace text in one or more files or globs. Works synchronously or asynchronously with either promises or callbacks. Make a single replacement or multiple replacements at once.",
+  "description": "A rollup plugin that searches for and replaces text in one or more files or globes. It works synchronously or asynchronously with promises or callbacks and makes a single replacement or several replacements at once.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladiiliev/rollup-plugin-replace-in-files.git"
+    "url": "git+https://github.com/vladiiliev/rollup-plugin-search-and-replace.git"
   },
   "keywords": [
     "rollup",
+    "search",
     "replace",
     "plugin"
   ],
   "author": "Vladimir Iliev <vldiliev@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vladiiliev/rollup-plugin-replace-in-files/issues"
+    "url": "https://github.com/vladiiliev/rollup-plugin-search-and-replace/issues"
   },
-  "homepage": "https://github.com/vladiiliev/rollup-plugin-replace-in-files#readme"
+  "homepage": "https://github.com/vladiiliev/rollup-plugin-search-and-replace#readme"
 }
