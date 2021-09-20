@@ -1,22 +1,30 @@
 {
-  "name": "rollup-plugin-search-and-replace",
-  "version": "1.0.0",
-  "description": "A rollup plugin that searches for and replaces text in one or more files or globes. It works synchronously or asynchronously with promises or callbacks and makes a single replacement or several replacements at once.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vladiiliev/rollup-plugin-search-and-replace.git"
-  },
-  "keywords": [
-    "rollup",
-    "search",
-    "replace",
-    "plugin"
-  ],
-  "author": "Vladimir Iliev <vldiliev@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vladiiliev/rollup-plugin-search-and-replace/issues"
-  },
-  "homepage": "https://github.com/vladiiliev/rollup-plugin-search-and-replace#readme"
+    "name": "rollup-plugin-search-and-replace",
+    "version": "1.0.0",
+    "description": "A rollup plugin that searches for and replaces text in one or more files. It works synchronously and makes a single replacement or several replacements at once.",
+    "main": "index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vladiiliev/rollup-plugin-search-and-replace.git"
+    },
+    "keywords": [
+        "rollup",
+        "search",
+        "replace",
+        "plugin"
+    ],
+    "author": "Vladimir Iliev <vldiliev@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vladiiliev/rollup-plugin-search-and-replace/issues"
+    },
+    "homepage": "https://github.com/vladiiliev/rollup-plugin-search-and-replace#readme",
+    "peerDependencies": {
+        "replace-in-file": "^6.2.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.4.1",
+        "replace-in-file": "^6.2.0"
+    }
 }

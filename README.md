@@ -1,5 +1,5 @@
 # rollup-plugin-search-and-replace
-A rollup plugin that searches for and replaces text in one or more files or globes. It works synchronously or asynchronously with promises or callbacks and makes a single replacement or several replacements at once.
+A rollup plugin that searches for and replaces text in one or more files. It works synchronously and makes a single replacement or several replacements at once.
 
 ## Install
 
