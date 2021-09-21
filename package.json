@@ -1,5 +1,5 @@
 {
-    "name": "@fed-sofia/rollup-plugin-search-and-replace",
+    "name": "rollup-plugin-search-and-replace",
     "version": "1.0.1",
     "description": "A rollup plugin that searches for and replaces text in one or more files. It works synchronously and makes a single replacement or several replacements at once.",
     "main": "dist/index.js",
